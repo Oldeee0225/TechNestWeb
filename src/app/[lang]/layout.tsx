@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 import { getDictionary } from "@/lib/dictionaries"
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.technest507.com"),
   title: "TechNest - Transformamos Ideas en Realidad Digital",
   description: "Estudio de desarrollo web y diseño digital que transforma tus ideas en experiencias digitales extraordinarias.",
   openGraph: {
