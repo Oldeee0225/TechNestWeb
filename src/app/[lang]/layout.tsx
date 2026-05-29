@@ -26,6 +26,10 @@ export const metadata: Metadata = {
   },
 }
 
+export async function generateStaticParams() {
+  return [{ lang: 'es' }, { lang: 'en' }]
+}
+
 export default async function RootLayout({
   children,
   params: { lang }
