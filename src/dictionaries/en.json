@@ -1,0 +1,349 @@
+{
+  "header": {
+    "proceso": "Process",
+    "equipo": "Team",
+    "ia": "AI",
+    "servicios": "Services",
+    "portafolio": "Portfolio",
+    "contacto": "Contact"
+  },
+  "techstack": {
+    "badge": "Our Arsenal",
+    "title1": "Cutting-Edge ",
+    "title2": "Technologies",
+    "subtitle": "We use the most advanced tools on the market to build robust, scalable, and future-proof solutions.",
+    "categories": [
+      {
+        "name": "Frontend",
+        "tools": "React, Next.js, Tailwind CSS"
+      },
+      {
+        "name": "Backend",
+        "tools": "Node.js, Python, PostgreSQL"
+      },
+      {
+        "name": "AI & Data",
+        "tools": "OpenAI, LangChain, PyTorch"
+      },
+      {
+        "name": "Cloud",
+        "tools": "AWS, Docker, Vercel"
+      },
+      {
+        "name": "Mobile",
+        "tools": "React Native, Swift"
+      },
+      {
+        "name": "Security",
+        "tools": "OAuth, JWT, Cloudflare"
+      }
+    ]
+  },
+  "hero": {
+    "badge": "Transforming the digital future",
+    "title_1": "We Transform ",
+    "title_2": "Ideas",
+    "title_3": "into ",
+    "title_4": "Digital Reality",
+    "description": "We are a web development and digital design studio. We create experiences that connect brands with people through technology and innovation.",
+    "cta_primary": "Contact Us",
+    "cta_secondary": "View Services",
+    "stats": [
+      {
+        "stat": "50+",
+        "label": "Projects"
+      },
+      {
+        "stat": "3+",
+        "label": "Years"
+      },
+      {
+        "stat": "30+",
+        "label": "Clients"
+      },
+      {
+        "stat": "100%",
+        "label": "Commitment"
+      }
+    ]
+  },
+  "about": {
+    "title_1": "Why ",
+    "title_2": "TechNest",
+    "title_3": "?",
+    "subtitle": "We are not just developers, we are digital artisans committed to excellence and tangible results.",
+    "cards": [
+      {
+        "title": "Human Focus",
+        "desc": "Every project starts by understanding your vision, your challenges, and your business goals."
+      },
+      {
+        "title": "Premium Quality",
+        "desc": "We write clean, scalable, and well-documented code that makes maintenance easy."
+      },
+      {
+        "title": "Clear Communication",
+        "desc": "Weekly updates, detailed documentation, and quick responses to your questions."
+      }
+    ],
+    "more_title": "TechNest is more than an agency",
+    "more_p1": "We are your technology partner. We were born in 2021 with a clear vision: to democratize access to high-quality digital solutions for businesses and entrepreneurs.",
+    "more_p2": "Our team combines experience in frontend and backend development, UX/UI design, and digital strategy to create products that not only look amazing but also generate real results.",
+    "stats": [
+      {
+        "val": "3+",
+        "label": "Years of experience"
+      },
+      {
+        "val": "100%",
+        "label": "Projects delivered"
+      },
+      {
+        "val": "98%",
+        "label": "Satisfaction rate"
+      },
+      {
+        "val": "24/7",
+        "label": "Available support"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to transform your idea?",
+    "desc": "Schedule a free call and discover how we can help you build your dream digital product.",
+    "btn1": "Contact Us",
+    "btn2": "View Services"
+  },
+  "footer": {
+    "subtitle": "We transform ideas into extraordinary digital experiences. Specialists in web development, UI/UX design, and innovative technological solutions.",
+    "services": "Services",
+    "contact": "Contact",
+    "rights": "TechNest. All rights reserved.",
+    "legal": "Legal Policy and Privacy",
+    "links": [
+      {
+        "name": "Premium Web Development",
+        "url": "/servicios/desarrollo-web"
+      },
+      {
+        "name": "Artificial Intelligence",
+        "url": "/servicios/inteligencia-artificial"
+      },
+      {
+        "name": "Business Automation",
+        "url": "/servicios/automatizacion"
+      }
+    ],
+    "socials": "Social Media"
+  },
+  "process": {
+    "title1": "Our ",
+    "title2": "Process",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Discovery & Planning",
+        "description": "We understand your business, define clear goals, and create a detailed roadmap for your project's success."
+      },
+      {
+        "id": 2,
+        "title": "UI/UX Design",
+        "description": "We create intuitive and beautiful interfaces that connect with your users and elevate your brand."
+      },
+      {
+        "id": 3,
+        "title": "Agile Development",
+        "description": "We build your product using the best technologies, ensuring performance, security, and scalability."
+      },
+      {
+        "id": 4,
+        "title": "Launch & Support",
+        "description": "We deploy your project and support its growth with continuous maintenance and optimization."
+      }
+    ],
+    "videoText": "We accompany you at every stage of your project's development."
+  },
+  "politicas": {
+    "title1": "Legal ",
+    "title2": "Policy",
+    "subtitle": "Privacy Policy and Terms of Use",
+    "updated": "Last updated: May 2026",
+    "intro": "Welcome to TechNesst. By accessing and using our services, website, or digital platforms, you accept the following terms and conditions. We recommend carefully reading this Legal Policy before using our services."
+  },
+  "portfolio": {
+    "title1": "Our ",
+    "title2": "Projects",
+    "subtitle": "Every project is a success story. Discover how we've helped businesses grow. Here are some of the projects developed at technest:",
+    "projects": [
+      {
+        "title": "Electric APP",
+        "category": "Electronics",
+        "description": "Application for the local administration of an electronics store with billing system and inventory control."
+      },
+      {
+        "title": "Restaurant System",
+        "category": "SaaS",
+        "description": "Restaurant management system with ordering system, billing, and inventory control."
+      },
+      {
+        "title": "HealthTrack",
+        "category": "Healthcare",
+        "description": "Mobile app for health tracking with wearable integration and medical reports."
+      },
+      {
+        "title": "CryptoWatch",
+        "category": "Fintech",
+        "description": "Cryptocurrency monitoring dashboard with custom alerts and digital portfolio."
+      },
+      {
+        "title": "AI Support Hub",
+        "category": "Artificial Intelligence",
+        "description": "Intelligent customer service platform with AI chatbots, ticket automation, and real-time conversational analysis."
+      },
+      {
+        "title": "LogiFlow",
+        "category": "Logistics",
+        "description": "Real-time logistics and tracking system for delivery management, GPS monitoring, and route optimization."
+      }
+    ]
+  },
+  "services": {
+    "title1": "Our ",
+    "title2": "Services",
+    "subtitle": "Comprehensive technological solutions to push your business to the next level.",
+    "items": [
+      {
+        "title": "Premium Web Development",
+        "desc": "Scalable, fast, and secure websites and web apps using modern technologies like Next.js and React."
+      },
+      {
+        "title": "Artificial Intelligence",
+        "desc": "Generative AI integration, advanced chatbots, and intelligent process automation."
+      },
+      {
+        "title": "Business Automation",
+        "desc": "Software systems to digitize processes and improve the operational efficiency of your company."
+      },
+      {
+        "title": "Enterprise Systems",
+        "desc": "Custom CRM, ERP systems, and management platforms for your business."
+      },
+      {
+        "title": "Mobile Apps",
+        "desc": "Native and cross-platform application development for iOS and Android with React Native or Swift."
+      },
+      {
+        "title": "Cloud & Backend",
+        "desc": "Scalable architectures, robust APIs, and secure database management."
+      },
+      {
+        "title": "Light Cybersecurity",
+        "desc": "Simple audits, API protection, and robust authentication systems."
+      }
+    ],
+    "about": {
+      "p1_strong": "At TechNest",
+      "p1_rest": " we develop modern technological solutions designed to help businesses, entrepreneurs, and brands grow in an increasingly competitive digital environment. We specialize in custom software development, web applications, process automation, artificial intelligence, and digital experiences with high visual and functional impact.",
+      "p2": "Our goal is not just to create software, but to build intelligent tools that drive real results. Each project is developed with a strategic approach, combining modern design, performance, scalability, and cutting-edge technologies to ensure solid, fast, and future-ready products.",
+      "p3": "We work on the creation of advanced web platforms, enterprise systems, administrative dashboards, APIs, automations, AI-driven solutions, and interactive experiences that optimize processes, improve productivity, and offer a superior user experience.",
+      "p4": "At TechNest we believe that quality is in every detail. That is why we take care of everything from the system architecture to the visual experience, using modern technologies and professional standards to ensure security, stability, and performance in every solution we deliver.",
+      "p5": "Choosing TechNest means working with a team focused on innovation, commitment, and technological excellence. We are passionate about transforming ideas into real, functional, and visually striking digital products. More than a provider, we seek to become a technological ally capable of accompanying the growth of each client in the long term.",
+      "p6": "We create modern technology for companies that want to evolve, automate, and stand out in the new digital era."
+    }
+  },
+  "contacto": {
+    "title1": "Start your ",
+    "title2": "Project",
+    "subtitle": "Tell us about your idea. Our team will contact you in less than 24 hours.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company / Project",
+      "message": "Tell us about your project...",
+      "btn": "Send Message",
+      "submitting": "Sending..."
+    },
+    "whatsapp": {
+      "title": "Direct Chat",
+      "desc": "Prefer an immediate response? Write us on WhatsApp and we will assist you instantly.",
+      "btn": "Open WhatsApp"
+    }
+  },
+  "ai": {
+    "badge": "TechNest Generation",
+    "title1": "Artificial",
+    "title2": "Intelligence",
+    "subtitle": "We empower your business with next-generation AI solutions. From intelligent chatbots to advanced predictive analysis.",
+    "stats": [
+      {
+        "value": "95%",
+        "label": "Accuracy"
+      },
+      {
+        "value": "50ms",
+        "label": "Latency"
+      },
+      {
+        "value": "24/7",
+        "label": "Availability"
+      },
+      {
+        "value": "99.9%",
+        "label": "Uptime"
+      }
+    ],
+    "features": [
+      {
+        "title": "Machine Learning",
+        "description": "Custom predictive models to optimize your business processes in real-time."
+      },
+      {
+        "title": "Natural Language",
+        "description": "Natural language processing for hyper-realistic chatbots and virtual assistants."
+      },
+      {
+        "title": "Computer Vision",
+        "description": "Image and video analysis with advanced low-latency detection neural networks."
+      }
+    ]
+  },
+  "equipo": {
+    "badge": "Our Talent",
+    "title1": "Meet the ",
+    "title2": "Team",
+    "subtitle": "We are a group of creative minds, passionate engineers, and digital strategists dedicated to turning your most ambitious visions into technological realities.",
+    "members": [
+      {
+        "name": "Oldemar Gonzalez",
+        "role": "CEO & Lead Architect",
+        "bio": "Specialist in cloud architecture and tech strategy with over 5 years scaling digital businesses."
+      },
+      {
+        "name": "Yarelis Yanguez",
+        "role": "UX/UI Director",
+        "bio": "Designer obsessed with creating intuitive, accessible, and visually extraordinary user experiences."
+      },
+      {
+        "name": "Alan Gonzalez",
+        "role": "Lead Full Stack Developer",
+        "bio": "Expert in React ecosystems, Node.js, and serverless architectures. Passionate about clean code and extreme performance."
+      },
+      {
+        "name": "José Rivera",
+        "role": "AI Specialist",
+        "bio": "Machine learning engineer dedicated to implementing generative models and smart automations for our clients."
+      },
+      {
+        "name": "Page Edgar",
+        "role": "Mobile Engineering Lead",
+        "bio": "Expert React Native and Swift developer. Creator of fluid, native, and high-conversion mobile applications."
+      },
+      {
+        "name": "Fabian Castillo",
+        "role": "Project Manager",
+        "bio": "The bridge between our technology and client goals. Ensures agile, on-time deliveries with unbeatable quality."
+      }
+    ]
+  }
+}
