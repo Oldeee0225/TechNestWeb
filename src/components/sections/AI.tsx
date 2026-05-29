@@ -4,28 +4,8 @@ import { Suspense, useRef, useMemo, useState, useEffect } from "react"
 import { Canvas, useFrame } from "@react-three/fiber"
 import { Cloud, Line, Trail } from "@react-three/drei"
 import { extend, useThree } from "@react-three/fiber"
-import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer"
-import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass"
-import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPass"
+import { EffectComposer, Bloom } from "@react-three/postprocessing"
 import * as THREE from "three"
-import Button from "@/components/ui/Button"
-
-extend({ EffectComposer, RenderPass, UnrealBloomPass })
-
-function NativeBloom() {
-  const { gl, scene, camera, size } = useThree()
-  const composer = useMemo(() => {
-    const comp = new EffectComposer(gl)
-    const renderPass = new RenderPass(scene, camera)
-    const bloomPass = new UnrealBloomPass(new THREE.Vector2(size.width, size.height), 2, 0, 0.9)
-    comp.addPass(renderPass)
-    comp.addPass(bloomPass)
-    return comp
-  }, [gl, scene, camera, size])
-
-  useFrame(() => composer.render(), 1)
-  return null
-}
 
 function CinematicCamera() {
   useFrame((state) => {
@@ -171,10 +151,17 @@ function Scene() {
         <ElegantOrbits />
 
         {/* Humo volumétrico para darle profundidad a la luz */}
+        {/* @ts-ignore - Cloud props mismatch with current drei version */}
         <Cloud opacity={0.15} speed={0.2} width={10} depth={2} segments={20} color="#ff3300" position={[0, 0, -2]} />
 
-        {/* BLOOM CRÍTICO (Nativo de Three.js, sin bugs de postprocessing) */}
-        <NativeBloom />
+        {/* BLOOM CRÍTICO */}
+        <EffectComposer>
+          <Bloom
+            intensity={1.5}
+            luminanceThreshold={0}
+            luminanceSmoothing={0.9}
+          />
+        </EffectComposer>
       </Suspense>
 
       <CinematicCamera />
